@@ -25,7 +25,7 @@ class AppTheme {
   static final TextStyle subHeadingColorBlue = TextStyle(
     fontFamily: 'Cairo',
     fontSize: 12,
-    color: sliderTextColor,
+    color: customColor,
   );
   static final containerBackground = LinearGradient(
     begin: Alignment.topRight,
@@ -89,6 +89,7 @@ InputDecoration textFormInputDecorationForPassword(IconData icon,
 //////////////////////////////////////////////////////////////////////
 InputDecoration textFormInputDecoration({
   String hint,
+  IconData icon,
 }) {
   return InputDecoration(
     errorStyle: AppTheme.subHeading.copyWith(
@@ -97,11 +98,16 @@ InputDecoration textFormInputDecoration({
     hintText: hint,
     hintStyle: AppTheme.heading.copyWith(
       color: customColorGray,
-      fontSize: 10,
+      fontSize: 14,
     ),
     fillColor: Colors.white,
     filled: true,
     isDense: true,
+    prefixIcon: Icon(
+      icon,
+      color: customColor,
+      size: 30,
+    ),
     contentPadding: EdgeInsets.all(15),
     enabledBorder: OutlineInputBorder(
       borderRadius: BorderRadius.circular(10),
