@@ -15,7 +15,7 @@ class AppTheme {
     fontWeight: FontWeight.w700,
     fontSize: 14,
     letterSpacing: 1.2,
-    color: sliderTextColor,
+    color: customColor,
   );
   static final TextStyle subHeading = TextStyle(
     fontFamily: 'Cairo',

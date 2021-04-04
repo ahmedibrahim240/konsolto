@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:konsolto/screens/splashscreen.dart';
+import 'package:konsolto/screens/wrapper/wrapper.dart';
 // import 'package:elgawda/routes.dart';s
 import 'constants/constans.dart';
 import 'constants/themes.dart';
@@ -47,7 +48,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         scaffoldBackgroundColor: Color(0xffff1f1f1),
         primaryIconTheme: IconThemeData(color: Colors.white),
-        primaryColor: Colors.white,
+        primaryColor: customColor,
         bottomAppBarColor: customColor,
         appBarTheme: AppBarTheme(
           color: customColor,
@@ -62,7 +63,7 @@ class _MyAppState extends State<MyApp> {
         accentColor: customColor,
         iconTheme: IconThemeData(color: customColor),
       ),
-      home: SplashScreen(),
+      home: Wrapper(),
     );
 
     //  StreamProvider<User>.value(
