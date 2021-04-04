@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:konsolto/screens/home/homeClasses/offertsNears.dart';
+import 'package:konsolto/screens/home/homeClasses/seaconalSelection.dart';
 
 import 'homeClasses/featuredOffers.dart';
 import 'homeClasses/homeAppBar.dart';
@@ -22,6 +23,7 @@ class _HomeState extends State<Home> {
           OffersNearYou(),
           PharmacyCategaorises(),
           Featuredoffers(),
+          SeaconalSelection(),
         ],
       ),
     );
