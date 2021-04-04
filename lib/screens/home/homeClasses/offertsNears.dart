@@ -18,7 +18,7 @@ class _OffersNearYouState extends State<OffersNearYou> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'OffersNearYou',
+            'Offers Near You',
             style: AppTheme.headingColorBlue.copyWith(
               fontSize: 16,
             ),
