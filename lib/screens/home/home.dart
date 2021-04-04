@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:konsolto/screens/home/homeClasses/offertsNears.dart';
 
 import 'homeClasses/homeAppBar.dart';
+import 'homeClasses/pharmacyCategories.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -18,6 +19,7 @@ class _HomeState extends State<Home> {
         children: [
           HomeAppBar(),
           OffersNearYou(),
+          PharmacyCategaorises(),
         ],
       ),
     );
