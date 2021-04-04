@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:konsolto/constants/constans.dart';
 import 'package:konsolto/constants/themes.dart';
-import 'package:konsolto/wrapper/wrapper.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
+import 'package:konsolto/screens/wrapper/wrapper.dart';
 
 class GitUserDate extends StatefulWidget {
   @override

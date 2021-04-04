@@ -52,8 +52,8 @@ class _MyAppState extends State<MyApp> {
         appBarTheme: AppBarTheme(
           color: customColor,
           elevation: 3,
-          iconTheme: IconThemeData(color: Colors.white),
-          actionsIconTheme: IconThemeData(color: Colors.white),
+          iconTheme: IconThemeData(color: customColor),
+          actionsIconTheme: IconThemeData(color: customColor),
           centerTitle: true,
           textTheme: TextTheme(
             headline6: AppTheme.headingColorBlue,

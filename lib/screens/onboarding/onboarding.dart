@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:konsolto/authenticate/authenticate.dart';
 import 'package:konsolto/constants/constans.dart';
 import 'package:konsolto/constants/themes.dart';
+import 'package:konsolto/screens/authenticate/authenticate.dart';
 import 'package:konsolto/screens/onboarding/slider.dart';
 
 class OnBoard extends StatefulWidget {

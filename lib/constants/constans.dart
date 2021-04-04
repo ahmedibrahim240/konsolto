@@ -7,8 +7,8 @@ import 'package:smooth_star_rating/smooth_star_rating.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:html/parser.dart';
 
-const customColor = Color(0xfff1a237e);
-const customColor2 = Color(0xfff33f51b5);
+const customColor = Color(0xfff0860a8);
+const customColor2 = Color(0xfff0f75c8);
 const customColorGold = Color(0xfff9B792C);
 const sliderTextColor = Color(0xfff21496C);
 const sliderTextColorcontaint = Color(0xfff21496C);

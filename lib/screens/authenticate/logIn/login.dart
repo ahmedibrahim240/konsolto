@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:konsolto/authenticate/logIn/confirmRegister.dart';
 import 'package:konsolto/constants/constans.dart';
 import 'package:konsolto/constants/themes.dart';
+import 'package:konsolto/screens/authenticate/logIn/confirmRegister.dart';
 
 class LogIn extends StatefulWidget {
   final Function toggleView;

@@ -1,11 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:konsolto/authenticate/logIn/getUserData.dart';
 import 'package:konsolto/constants/constans.dart';
 import 'package:konsolto/constants/themes.dart';
 import 'package:code_fields/code_fields.dart';
-import 'package:konsolto/wrapper/wrapper.dart';
+import 'package:konsolto/screens/authenticate/logIn/getUserData.dart';
 
 class ConfirmPassword extends StatefulWidget {
   @override
