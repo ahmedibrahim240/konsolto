@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:konsolto/screens/home/homeClasses/offertsNears.dart';
 
 import 'homeClasses/homeAppBar.dart';
 
@@ -16,6 +17,7 @@ class _HomeState extends State<Home> {
         primary: true,
         children: [
           HomeAppBar(),
+          OffersNearYou(),
         ],
       ),
     );
