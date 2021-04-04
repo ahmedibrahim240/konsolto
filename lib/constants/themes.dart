@@ -95,8 +95,8 @@ InputDecoration textFormInputDecoration({
     errorStyle: AppTheme.subHeading.copyWith(
       color: customColor,
     ),
-    hintText: hint,
-    hintStyle: AppTheme.heading.copyWith(
+    labelText: hint,
+    labelStyle: AppTheme.heading.copyWith(
       color: customColorGray,
       fontSize: 14,
     ),
@@ -110,14 +110,14 @@ InputDecoration textFormInputDecoration({
     ),
     contentPadding: EdgeInsets.all(15),
     enabledBorder: OutlineInputBorder(
-      borderRadius: BorderRadius.circular(10),
+      borderRadius: BorderRadius.circular(5),
       borderSide: BorderSide(
         style: BorderStyle.solid,
         color: customColorGray,
       ),
     ),
     focusedBorder: OutlineInputBorder(
-      borderRadius: BorderRadius.circular(10),
+      borderRadius: BorderRadius.circular(5),
       borderSide: BorderSide(
         style: BorderStyle.solid,
         color: customColorGray,
@@ -126,20 +126,32 @@ InputDecoration textFormInputDecoration({
   );
 }
 
-InputDecoration textFormInputDecorationWithlabel({
-  String label,
+InputDecoration textFormInputDecorationWithHint({
+  String hint,
 }) {
   return InputDecoration(
     errorStyle: AppTheme.subHeading.copyWith(
       color: customColor,
     ),
-    labelText: label,
+    labelText: hint,
     labelStyle: AppTheme.heading.copyWith(
-      color: customColor,
-      fontSize: 10,
+      fontSize: 14,
     ),
     isDense: true,
-    contentPadding: EdgeInsets.all(15),
+    enabledBorder: OutlineInputBorder(
+      borderRadius: BorderRadius.circular(5),
+      borderSide: BorderSide(
+        style: BorderStyle.solid,
+        color: customColorGray,
+      ),
+    ),
+    focusedBorder: OutlineInputBorder(
+      borderRadius: BorderRadius.circular(5),
+      borderSide: BorderSide(
+        style: BorderStyle.solid,
+        color: customColorGray,
+      ),
+    ),
   );
 }
 

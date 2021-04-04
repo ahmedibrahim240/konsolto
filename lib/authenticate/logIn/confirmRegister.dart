@@ -1,9 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:konsolto/authenticate/logIn/getUserData.dart';
 import 'package:konsolto/constants/constans.dart';
 import 'package:konsolto/constants/themes.dart';
 import 'package:code_fields/code_fields.dart';
+import 'package:konsolto/wrapper/wrapper.dart';
 
 class ConfirmPassword extends StatefulWidget {
   @override
@@ -117,12 +119,12 @@ class _ConfirmPasswordState extends State<ConfirmPassword> {
                     CustomButton(
                       text: 'Resend code',
                       onPress: () {
-                        // Navigator.of(context).pushAndRemoveUntil(
-                        //   MaterialPageRoute(
-                        //     builder: (_) => Wrapper(),
-                        //   ),
-                        //   (routes) => false,
-                        // );
+                        Navigator.of(context).pushAndRemoveUntil(
+                          MaterialPageRoute(
+                            builder: (_) => GitUserDate(),
+                          ),
+                          (routes) => false,
+                        );
                       },
                     )
                   ],

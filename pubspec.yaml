@@ -38,7 +38,7 @@ dependencies:
   http:
   html:
   path:
-  # timeago: ^2.0.29
+  timeago: ^2.0.29
   # sqflite:
   
   async:
