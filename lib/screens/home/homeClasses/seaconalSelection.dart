@@ -36,6 +36,7 @@ class _SeaconalSelectionState extends State<SeaconalSelection> {
                 width: 130,
                 child: Card(
                   elevation: 4,
+                  color: customColorGray,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10)),
                   child: Column(
@@ -76,6 +77,7 @@ class _SeaconalSelectionState extends State<SeaconalSelection> {
                           },
                           child: Card(
                             elevation: 4,
+                            color: customColorGray,
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(10)),
                             child: Column(

@@ -17,7 +17,7 @@ class _HomeAppBarState extends State<HomeAppBar> {
           onTap: () {},
           child: Container(
             width: MediaQuery.of(context).size.width,
-            color: Colors.grey[400].withOpacity(.6),
+            color: customColorGray,
             padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
