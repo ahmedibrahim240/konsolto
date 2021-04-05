@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:konsolto/screens/home/homeClasses/featuredBrandes.dart';
 import 'package:konsolto/screens/home/homeClasses/offertsNears.dart';
 import 'package:konsolto/screens/home/homeClasses/seaconalSelection.dart';
+import 'package:konsolto/screens/home/homeClasses/tapToSeeOffers.dart';
 import 'package:konsolto/screens/home/homeSlidder.dart';
 
 import 'homeClasses/featuredOffers.dart';
@@ -23,6 +24,7 @@ class _HomeState extends State<Home> {
         primary: true,
         children: [
           HomeAppBar(),
+          TapToSeeOffers(),
           HomePaner(),
           OffersNearYou(),
           PharmacyCategaorises(),
