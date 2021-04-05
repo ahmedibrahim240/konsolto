@@ -3,6 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:konsolto/constants/constans.dart';
 import 'package:konsolto/constants/themes.dart';
 import 'package:konsolto/screens/home/home.dart';
+import 'package:konsolto/screens/timeline/TimeLine.dart';
 
 class Wrapper extends StatefulWidget {
   @override
@@ -13,8 +14,9 @@ class _WrapperState extends State<Wrapper> {
   int _currentIndex = 0;
   final List<Widget> _children = [
     Home(),
-    Text('page2'),
     Text('page3'),
+    TimeLine(),
+
     Text('page4'),
 
     // Home(),
@@ -48,21 +50,7 @@ class _WrapperState extends State<Wrapper> {
       //     child: Icon(Icons.camera),
       //   ),
       // ),
-      appBar: AppBar(
-        backgroundColor: Colors.white,
-        elevation: 0.0,
-        centerTitle: false,
-        title: Text(
-          'KONSOLTO',
-          style: AppTheme.headingColorBlue,
-        ),
-        actions: [
-          IconButton(
-            icon: Icon(Icons.notifications),
-            onPressed: () {},
-          )
-        ],
-      ),
+
       body: _children[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,

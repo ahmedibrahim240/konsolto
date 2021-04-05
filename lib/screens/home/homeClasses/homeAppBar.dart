@@ -28,7 +28,7 @@ class _HomeAppBarState extends State<HomeAppBar> {
                     Icon(Icons.location_pin),
                     SizedBox(width: 5),
                     Text(
-                      "Tessssssssssssssssssssssssssst",
+                      "388 el nargis buildings, new cairo",
                       style: AppTheme.subHeadingColorBlue,
                     ),
                   ],

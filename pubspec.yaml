@@ -40,6 +40,7 @@ dependencies:
   path:
   timeago: ^2.0.29
   carousel_indicator:
+  timeline_tile:
   
   # sqflite:
   

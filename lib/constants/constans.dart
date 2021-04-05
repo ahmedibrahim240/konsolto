@@ -13,6 +13,7 @@ const customColorGold = Color(0xfff9B792C);
 const sliderTextColor = Color(0xfff21496C);
 const customColorRed = Color(0xffff42821);
 const customColorGreen = Color(0xfff18de12);
+const customColorGreen2 = Color(0xfff009a2e);
 const sliderTextColorcontaint = Color(0xfff21496C);
 const customColorIcon = Color(0xfff7D7D7D);
 const customColorDivider = Color(0xfffe1e1e1);
