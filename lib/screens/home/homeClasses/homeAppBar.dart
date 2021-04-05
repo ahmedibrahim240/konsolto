@@ -16,7 +16,6 @@ class _HomeAppBarState extends State<HomeAppBar> {
         InkWell(
           onTap: () {},
           child: Container(
-            height: 30,
             width: MediaQuery.of(context).size.width,
             color: Colors.grey[400].withOpacity(.6),
             padding: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
@@ -30,7 +29,7 @@ class _HomeAppBarState extends State<HomeAppBar> {
                     SizedBox(width: 5),
                     Text(
                       "Tessssssssssssssssssssssssssst",
-                      style: AppTheme.headingColorBlue,
+                      style: AppTheme.subHeadingColorBlue,
                     ),
                   ],
                 ),
@@ -42,7 +41,6 @@ class _HomeAppBarState extends State<HomeAppBar> {
         Container(
           margin: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
           padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
-          height: 50,
           width: MediaQuery.of(context).size.width,
           decoration: BoxDecoration(
             color: Colors.white,
@@ -64,7 +62,7 @@ class _HomeAppBarState extends State<HomeAppBar> {
                     decoration: InputDecoration(
                       hintText: "What are you looking for in pharmacy",
                       hintStyle:
-                          AppTheme.subHeadingColorBlue.copyWith(fontSize: 15),
+                          AppTheme.subHeadingColorBlue.copyWith(fontSize: 14),
                       contentPadding: EdgeInsets.only(top: 5),
                       enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(
