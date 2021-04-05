@@ -5,6 +5,7 @@ import 'package:konsolto/screens/home/homeClasses/seaconalSelection.dart';
 
 import 'homeClasses/featuredOffers.dart';
 import 'homeClasses/homeAppBar.dart';
+import 'homeClasses/homePaner.dart';
 import 'homeClasses/pharmacyCategories.dart';
 
 class Home extends StatefulWidget {
@@ -21,6 +22,7 @@ class _HomeState extends State<Home> {
         primary: true,
         children: [
           HomeAppBar(),
+          HomePaner(),
           OffersNearYou(),
           PharmacyCategaorises(),
           Featuredoffers(),
