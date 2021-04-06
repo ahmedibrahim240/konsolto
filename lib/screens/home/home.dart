@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:konsolto/constants/themes.dart';
 import 'package:konsolto/screens/home/homeClasses/featuredBrandes.dart';
-import 'package:konsolto/screens/home/homeClasses/offertsNears.dart';
 import 'package:konsolto/screens/home/homeClasses/seaconalSelection.dart';
 import 'package:konsolto/screens/home/homeClasses/tapToSeeOffers.dart';
 import 'package:konsolto/screens/home/homeSlidder.dart';
@@ -9,6 +8,7 @@ import 'package:konsolto/screens/home/homeSlidder.dart';
 import 'homeClasses/featuredOffers.dart';
 import 'homeClasses/homeAppBar.dart';
 import 'homeClasses/homePaner.dart';
+import 'homeClasses/offersNearyou/offertsNears.dart';
 import 'homeClasses/pharmacyCategories.dart';
 
 class Home extends StatefulWidget {

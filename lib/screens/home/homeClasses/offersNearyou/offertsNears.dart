@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:konsolto/constants/constans.dart';
 import 'package:konsolto/constants/themes.dart';
+import 'package:konsolto/screens/home/homeClasses/offersNearyou/allOfersNearYou.dart';
 
 class OffersNearYou extends StatefulWidget {
   @override
@@ -42,13 +43,14 @@ class _OffersNearYouState extends State<OffersNearYou> {
                     padding: const EdgeInsets.all(0.0),
                     child: InkWell(
                       onTap: () {
-                        // Navigator.of(context).push(
-                        //   MaterialPageRoute(
-                        //     builder: (_) => CategoriesCoursesPage(
-                        //       categories: categoriesList[index],
-                        //     ),
-                        //   ),
-                        // );
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (_) => AllOfersNearYou(
+                              title: 'Ezaby offers Near you',
+                              image: 'lib/images/logo.png',
+                            ),
+                          ),
+                        );
                       },
                       child: Card(
                         elevation: 2,
