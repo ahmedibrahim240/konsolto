@@ -32,7 +32,61 @@ class _TimeLineState extends State<TimeLine> {
         padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
         children: [
           CustomTimeLine(),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Expanded(
+                flex: 1,
+                child: Divider(
+                  color: customColorGray,
+                  thickness: 2,
+                ),
+              ),
+              spaceW(10),
+              Text(
+                'july 2021',
+                style: AppTheme.subHeading,
+              ),
+              spaceW(10),
+              Expanded(
+                flex: 1,
+                child: Divider(
+                  color: customColorGray,
+                  thickness: 2,
+                ),
+              ),
+            ],
+          ),
+          spaceH(10),
           CustomTimeLine(),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Expanded(
+                flex: 1,
+                child: Divider(
+                  color: customColorGray,
+                  thickness: 2,
+                ),
+              ),
+              spaceW(10),
+              Text(
+                'july 2021',
+                style: AppTheme.subHeading,
+              ),
+              spaceW(10),
+              Expanded(
+                flex: 1,
+                child: Divider(
+                  color: customColorGray,
+                  thickness: 2,
+                ),
+              ),
+            ],
+          ),
+          spaceH(10),
           CustomTimeLine(),
         ],
       ),
@@ -130,7 +184,7 @@ class PrscriptionsListview extends StatelessWidget {
                   child: Row(
                     children: [
                       Container(
-                        width: 150,
+                        width: 160,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(15),
                           border: Border.all(
@@ -139,6 +193,8 @@ class PrscriptionsListview extends StatelessWidget {
                           ),
                         ),
                         child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Container(
                               padding: EdgeInsets.symmetric(
@@ -159,11 +215,11 @@ class PrscriptionsListview extends StatelessWidget {
                                 ),
                               ),
                             ),
-                            spaceW(10),
                             Icon(
                               FontAwesomeIcons.cartPlus,
                               color: customColorGreen2,
                             ),
+                            spaceW(5),
                           ],
                         ),
                       ),
@@ -210,8 +266,8 @@ class _CustomTimeLineState extends State<CustomTimeLine> {
             width: 70,
             height: 70,
             indicator: Container(
-              width: 70,
-              height: 70,
+              width: 80,
+              height: 80,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
                 color: Colors.white,
@@ -223,7 +279,7 @@ class _CustomTimeLineState extends State<CustomTimeLine> {
                   Text(
                     '24',
                     style: AppTheme.heading.copyWith(
-                      fontSize: 25,
+                      fontSize: 20,
                     ),
                   ),
                   Text(
